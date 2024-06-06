@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    width: 850px;
+    height: 600px;
+    background-color: rgb(247, 245, 245);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 40px;
+    
+}
+.texts h1{
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(34, 34, 70);
+}
+.texts h6{
+    margin-left: 40px;
+    font-size: 33px;
+    text-align: center;
+    color: gray;
+}
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffe1d0;
+    border-radius: 40px;
+    width: 90%;
+    height: 80%;
+}
